@@ -89,7 +89,7 @@ def make_chart():
              f"MADS Capstone Projects by Subject Area   (n = {grand_total})",
              fontsize=16, fontweight="bold", color=MICH_BLUE)
     fig.text(0.02, 0.905,
-             "Postings in #mads-capstone-gallery since the channel opened on May 17, 2025.",
+             "Posting in #mads-capstone-gallery is mandatory for MADS capstones. Channel opened May 17, 2025.",
              fontsize=10.5, color=BODY, style="italic")
 
     plt.savefig(OUT_PATH, dpi=160, facecolor="white")

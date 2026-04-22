@@ -2,6 +2,8 @@
 
 A minimal public dataset of University of Michigan Master of Applied Data Science (MADS) capstone projects, labeled by subject area. Built by a student, not UMSI. CC0 licensed. No individual identifiers.
 
+Posting in the `#mads-capstone-gallery` Slack channel is mandatory for MADS capstone completers (confirmed by a MADS lecturer on April 22, 2026). This dataset therefore approximates the full population of capstones completed since the channel opened on May 17, 2025, rather than a self selected sample.
+
 Each row is one capstone project. Fields: cohort (SS25, F25, W26), team_number, project_title, team_size, subject_category, and four boolean presence flags (has_report, has_video, has_code_repo, has_live_app). Data lives on the `main` branch and is regenerated automatically when the CSV is updated.
 
 ## Data

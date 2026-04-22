@@ -4,6 +4,8 @@
 
 A minimal public dataset of University of Michigan Master of Applied Data Science capstone projects, labeled by subject area. Built by a current MADS student because the Slack gallery is great for browsing and terrible for answering basic questions like "how many of these are healthcare" or "has anyone done a real estate capstone before."
 
+Posting in the `#mads-capstone-gallery` channel is mandatory for capstone completers (confirmed by a MADS lecturer on April 22, 2026), so this dataset approximates the full population of capstones completed since the channel opened on May 17, 2025.
+
 ## What is a MADS capstone
 
 Every term, teams of one to four MADS students complete SIADS 699, the capstone course. Each team builds an end to end data science project in a domain of their choosing, presents it, and some share it in the program's `#mads-capstone-gallery` Slack channel. Three terms run each year (Spring/Summer, Fall, Winter), so the sample grows.
@@ -109,4 +111,4 @@ Everything in this repo is released under [CC0 1.0 Universal](LICENSE) (public d
 
 ## Acknowledgments
 
-Data is self-reported by MADS teams who posted in `#mads-capstone-gallery` since the channel opened on May 17, 2025. Category tags are this author's judgment. This project is not endorsed or reviewed by the University of Michigan or the School of Information.
+Data comes from postings in `#mads-capstone-gallery` since the channel opened on May 17, 2025. Posting is mandatory for MADS capstone teams (confirmed by a MADS lecturer in the channel on April 22, 2026), so this dataset approximates the full population of completed capstones from Spring/Summer 2025 onward rather than a self selected sample. Category tags are this author's judgment. This project is not endorsed or reviewed by the University of Michigan or the School of Information.
