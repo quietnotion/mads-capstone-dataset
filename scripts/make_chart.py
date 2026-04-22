@@ -91,7 +91,7 @@ def make_chart():
              fontsize=16, fontweight="bold", color=MICH_BLUE)
     today = date.today().strftime("%B %-d, %Y")
     fig.text(0.02, 0.910,
-             f"Data as of {today}.  Posting in #mads-capstone-gallery is mandatory for MADS capstones; channel opened May 17, 2025.",
+             f"Data as of {today}.  Covers #mads-capstone-gallery (opened May 17, 2025; posting now mandatory).  Pre Slack MADS cohorts not yet included.",
              fontsize=10, color=BODY, style="italic")
 
     plt.savefig(OUT_PATH, dpi=160, facecolor="white")
