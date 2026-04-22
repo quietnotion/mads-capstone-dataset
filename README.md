@@ -12,11 +12,14 @@ MADS is the online Master of Applied Data Science out of the University of Michi
 
 This repo is not affiliated with UMSI. It's one student aggregating what other students have posted publicly. For anything official, go to UMSI directly.
 
-## What's in the CSV
+## What's in the data
 
-File: [`data/mads_capstone_projects_by_subject_area.csv`](data/mads_capstone_projects_by_subject_area.csv)
+Two synced files, one row per project:
 
-Each row is one project. Fields:
+- CSV: [`data/mads_capstone_projects_by_subject_area.csv`](data/mads_capstone_projects_by_subject_area.csv)
+- JSON: [`data/mads_capstone_projects_by_subject_area.json`](data/mads_capstone_projects_by_subject_area.json)
+
+The JSON mirror is auto regenerated from the CSV whenever the CSV changes. The CSV is the source of truth. Fields:
 
 | Field | Example |
 | --- | --- |
@@ -69,7 +72,36 @@ pip install matplotlib numpy
 python scripts/make_chart.py
 ```
 
-Output: `chart.png`.
+Output: `chart.png`. `scripts/export_json.py` does the same for the JSON mirror. Both run automatically via GitHub Actions whenever the CSV is updated on `main`, so contributors only need to edit the CSV.
+
+## Programmatic access
+
+For agents, notebooks, or anything that wants stable URLs.
+
+- Raw CSV: `https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/data/mads_capstone_projects_by_subject_area.csv`
+- Raw JSON: `https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/data/mads_capstone_projects_by_subject_area.json`
+- Raw chart PNG: `https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/chart.png`
+- Machine readable summary: [`llms.txt`](llms.txt) (follows the [llmstxt.org](https://llmstxt.org/) convention)
+
+Pandas example:
+
+```python
+import pandas as pd
+url = "https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/data/mads_capstone_projects_by_subject_area.csv"
+df = pd.read_csv(url)
+print(df["subject_category"].value_counts())
+```
+
+## Related resources
+
+- [UMSI Master of Applied Data Science program page](https://www.si.umich.edu/programs/master-applied-data-science)
+- [MADS curriculum and courses](https://www.si.umich.edu/programs/master-applied-data-science/master-applied-data-science-curriculum)
+- [UMSI 699 Mastery Courses](https://www.si.umich.edu/programs/courses/699)
+- [UMSI Student Project Exposition coverage](https://www.si.umich.edu/about-umsi/news/2025-umsi-student-project-exposition-award-winners-announced) (official public recognition of capstone teams)
+
+## Citation
+
+If you use this dataset, see [`CITATION.cff`](CITATION.cff) for the citation entry.
 
 ## License
 

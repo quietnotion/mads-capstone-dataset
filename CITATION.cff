@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+title: "MADS Capstone Projects by Subject Area"
+abstract: >
+  A public minimal dataset of University of Michigan Master of Applied Data
+  Science capstone projects labeled by subject area, built by a current MADS
+  student. Contains project titles, cohort tags, team size, and subject
+  categorization, with no individual identifiers.
+authors:
+  - family-names: Plotkin
+    given-names: Ross
+type: dataset
+license: CC0-1.0
+repository-code: "https://github.com/quietnotion/mads-capstone-dataset"
+url: "https://github.com/quietnotion/mads-capstone-dataset"
+date-released: 2026-04-22
+keywords:
+  - university-of-michigan
+  - mads
+  - siads-699
+  - capstone
+  - data-science-education
+  - subject-area-classification

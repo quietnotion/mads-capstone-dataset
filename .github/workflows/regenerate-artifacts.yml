@@ -1,0 +1,46 @@
+name: Regenerate chart and JSON from CSV
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/mads_capstone_projects_by_subject_area.csv"
+      - "scripts/make_chart.py"
+      - "scripts/export_json.py"
+      - ".github/workflows/regenerate-artifacts.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install matplotlib numpy
+
+      - name: Regenerate chart
+        run: python scripts/make_chart.py
+
+      - name: Regenerate JSON
+        run: python scripts/export_json.py
+
+      - name: Commit regenerated artifacts if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add chart.png data/mads_capstone_projects_by_subject_area.json
+          if git diff --cached --quiet; then
+            echo "No artifact changes."
+          else
+            git commit -m "Auto regenerate chart and JSON from CSV"
+            git push
+          fi

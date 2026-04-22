@@ -1,0 +1,28 @@
+# MADS Capstone Projects by Subject Area
+
+A minimal public dataset of University of Michigan Master of Applied Data Science (MADS) capstone projects, labeled by subject area. Built by a student, not UMSI. CC0 licensed. No individual identifiers.
+
+Each row is one capstone project. Fields: cohort (SS25, F25, W26), team_number, project_title, team_size, subject_category, and four boolean presence flags (has_report, has_video, has_code_repo, has_live_app). Data lives on the `main` branch and is regenerated automatically when the CSV is updated.
+
+## Data
+
+- [CSV](https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/data/mads_capstone_projects_by_subject_area.csv): canonical dataset, UTF-8.
+- [JSON](https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/data/mads_capstone_projects_by_subject_area.json): same content as an array of objects, booleans and integers typed.
+- [Chart PNG](https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/chart.png): stacked bar chart by cohort.
+
+## Docs
+
+- [README](https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/README.md): overview, privacy stance, how to use.
+- [Taxonomy](https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/taxonomy.md): subject category definitions and every judgment call made.
+- [Contributing](https://raw.githubusercontent.com/quietnotion/mads-capstone-dataset/main/CONTRIBUTING.md): how to propose changes, add cohorts, or request redaction.
+
+## Repo
+
+- [Repository](https://github.com/quietnotion/mads-capstone-dataset)
+- [Issues](https://github.com/quietnotion/mads-capstone-dataset/issues)
+- [Discussions](https://github.com/quietnotion/mads-capstone-dataset/discussions)
+
+## Optional
+
+- [UMSI MADS program page](https://www.si.umich.edu/programs/master-applied-data-science): the official source for program information.
+- [UMSI Project Exposition](https://www.si.umich.edu/about-umsi/news/2025-umsi-student-project-exposition-award-winners-announced): where capstone work is celebrated publicly with team names and titles.
