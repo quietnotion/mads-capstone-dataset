@@ -38,6 +38,40 @@ Follow the existing row format. Fields: `cohort,team_number,project_title,team_s
 
 If you are unsure which subject category applies, pick your best guess and say so in the PR description. A reviewer will push back if another category fits better.
 
+## Avoiding duplicates
+
+Every project title in the CSV is unique. Before adding a row, check whether your project is already listed.
+
+### Checking one project (your team)
+
+Easiest path: open [the CSV on GitHub](data/mads_capstone_projects_by_subject_area.csv), hit `Cmd+F` or `Ctrl+F`, and search for a distinctive word from your title. If nothing comes up, it's safe to add.
+
+### Checking a batch (e.g. a whole cohort paste from Slack)
+
+Use the helper script. It takes a text file or stdin, extracts project titles, and tells you which are already in the dataset and which are new.
+
+```
+python scripts/find_new_projects.py path/to/my_paste.txt
+```
+
+Or pipe directly:
+
+```
+echo "My New Capstone Project" | python scripts/find_new_projects.py -
+```
+
+The script looks for lines prefixed with `Project:`, `Project Title:`, `Project Name:`, or `Title:` (the common formats used in `#mads-capstone-gallery`). If none are found, it falls back to treating long input lines as titles. Matches against the existing CSV use fuzzy comparison with an 85% similarity threshold, which catches minor variations like different capitalization or an added subtitle. Anything below the threshold is shown as "not yet in dataset," with the closest existing title noted when it's a close call (60% similarity or higher). Use your judgment on borderline cases.
+
+### Typical cohort workflow
+
+When Spring/Summer 2026 wraps and you want to batch add projects:
+
+1. Scroll the channel to the first SS26 post.
+2. Copy the channel text into a file (any plain text format works).
+3. Run `python scripts/find_new_projects.py your_file.txt`.
+4. Copy the "not yet in dataset" titles into new CSV rows with their cohort, team number, category, and flags.
+5. Open a PR. The maintainer merges, the GitHub Action regenerates chart and JSON, and a new release tag can be cut to mark the cutoff.
+
 ## Ground rules
 
 - **Never add individual names, Slack handles, emails, mentor names, or URLs.** That's the privacy boundary. Anything at that level goes through UMSI's own channels, not this repo.

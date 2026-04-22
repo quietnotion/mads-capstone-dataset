@@ -76,6 +76,18 @@ python scripts/make_chart.py
 
 Output: `chart.png`. `scripts/export_json.py` does the same for the JSON mirror. Both run automatically via GitHub Actions whenever the CSV is updated on `main`, so contributors only need to edit the CSV.
 
+## Checking for duplicates before contributing
+
+If you are adding a new project or batch adding a cohort, run the dedupe helper first so you don't submit something that's already in the dataset:
+
+```
+python scripts/find_new_projects.py path/to/slack_paste.txt
+# or
+echo "My Project Title" | python scripts/find_new_projects.py -
+```
+
+Details and workflow in [CONTRIBUTING.md](CONTRIBUTING.md#avoiding-duplicates).
+
 ## Programmatic access
 
 For agents, notebooks, or anything that wants stable URLs.
