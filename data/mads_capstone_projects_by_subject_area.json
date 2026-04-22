@@ -201,7 +201,7 @@
     "has_video": false,
     "has_code_repo": true,
     "has_live_app": false,
-    "notes": "Title underspecified in post; macro finance framing inferred"
+    "notes": "Project title not stated in post; topic inferred from team name"
   },
   {
     "cohort": "SS25",
@@ -297,7 +297,7 @@
     "has_video": false,
     "has_code_repo": true,
     "has_live_app": false,
-    "notes": "Only repo listed"
+    "notes": ""
   },
   {
     "cohort": "F25",
@@ -429,7 +429,7 @@
     "has_video": false,
     "has_code_repo": true,
     "has_live_app": false,
-    "notes": "Judgment call: price prediction so Finance not Sports"
+    "notes": "Price prediction for a prediction market; categorized under Finance"
   },
   {
     "cohort": "F25",
