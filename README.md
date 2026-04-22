@@ -4,7 +4,7 @@
 
 A minimal public dataset of University of Michigan Master of Applied Data Science capstone projects, labeled by subject area. Built by a current MADS student because the Slack gallery is great for browsing and terrible for answering basic questions like "how many of these are healthcare" or "has anyone done a real estate capstone before."
 
-Posting in the `#mads-capstone-gallery` channel is mandatory for capstone completers (confirmed by a MADS lecturer on April 22, 2026), so this dataset approximates the full population of capstones completed since the channel opened on May 17, 2025. Earlier MADS cohorts used the program's prior Coursera space and are not yet included here; contributions with historical data are welcome.
+Posting in the `#mads-capstone-gallery` channel is mandatory for capstone completers (confirmed by a MADS lecturer on April 22, 2026), so this dataset approximates the full population of capstones completed since the channel opened on May 17, 2025. Capstones shared in the program's prior Coursera communication space are not yet included here; contributions with historical data are welcome.
 
 ## What is a MADS capstone
 
@@ -125,4 +125,4 @@ Everything in this repo is released under [CC0 1.0 Universal](LICENSE) (public d
 
 ## Acknowledgments
 
-Data comes from postings in `#mads-capstone-gallery` since the channel opened on May 17, 2025. Posting is mandatory for MADS capstone teams (confirmed by a MADS lecturer in the channel on April 22, 2026), so this dataset approximates the full population of completed capstones from Spring/Summer 2025 onward rather than a self selected sample. Capstones completed before the Slack channel existed (the program has run since approximately 2020 on a Coursera space) are not yet included. Contributors with pre Slack capstone titles and cohorts are welcome to open an issue or PR. Category tags are this author's judgment. This project is not endorsed or reviewed by the University of Michigan or the School of Information.
+Data comes from postings in `#mads-capstone-gallery` since the channel opened on May 17, 2025. Posting is mandatory for MADS capstone teams (confirmed by a MADS lecturer in the channel on April 22, 2026), so this dataset approximates the full population of completed capstones from Spring/Summer 2025 onward rather than a self selected sample. Capstones shared in the program's prior Coursera communication space are not yet included. Contributors with historical capstone titles and cohorts are welcome to open an issue or PR. Category tags are this author's judgment. This project is not endorsed or reviewed by the University of Michigan or the School of Information.
