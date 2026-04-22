@@ -42,7 +42,7 @@ This dataset is deliberately minimal. What it does not contain, by design:
 
 What it does contain: the project title, the cohort, the team size count, and my subject area tag. Project titles are the public face of each capstone. Students share them in a gallery channel explicitly so others can see them. UMSI itself publicizes capstone titles and team names in Project Exposition coverage and award announcements on its own website. This dataset is strictly more conservative than what UMSI's own public pages show.
 
-**Redaction or correction.** If you are a team member, mentor, UMSI faculty, or staff, and you want something removed, corrected, or never added in the first place: [open an issue](https://github.com/quietnotion/mads-capstone-dataset/issues/new/choose) or email [quiet@umich.edu](mailto:quiet@umich.edu). Turnaround is 48 hours. You do not need to explain why.
+**Redaction or correction.** If you are a team member, mentor, UMSI faculty, or staff, and you want something removed, corrected, or never added in the first place, [open an issue](https://github.com/quietnotion/mads-capstone-dataset/issues/new/choose). You do not need to explain why.
 
 **On making individual projects more visible.** Capstones are team efforts. Publishing richer information about a specific project would need sign off from every member of that team, and that coordination is unlikely to happen in practice. This dataset will stay aggregate only. Teams who want their work promoted should use UMSI's own channels.
 
@@ -58,7 +58,7 @@ You are welcome to suggest:
 
 **Easiest path.** On GitHub, navigate to the CSV file and click the pencil icon ("Edit this file"). Make your change directly in the browser. GitHub will create a pull request automatically. No local git setup needed.
 
-**No GitHub account?** Open an issue using the [web form](https://github.com/quietnotion/mads-capstone-dataset/issues/new/choose), or email [quiet@umich.edu](mailto:quiet@umich.edu) with the change.
+**No GitHub account?** Open an issue using the [web form](https://github.com/quietnotion/mads-capstone-dataset/issues/new/choose) (GitHub sign up is free and takes under a minute).
 
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for details.
 

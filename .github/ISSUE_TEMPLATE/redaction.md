@@ -11,4 +11,4 @@ labels: redaction
 - [ ] Just the project title (keep the aggregate count)
 - [ ] Other (describe)
 
-Turnaround is 48 hours. If you prefer not to open a public issue, email [quiet@umich.edu](mailto:quiet@umich.edu).
+No explanation required.

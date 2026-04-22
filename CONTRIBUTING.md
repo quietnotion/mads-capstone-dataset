@@ -22,7 +22,7 @@ No local git setup required. No forking. Browser only.
 
 ## If you don't have a GitHub account
 
-Open an issue via [the issue form](https://github.com/quietnotion/mads-capstone-dataset/issues/new/choose), or email [quiet@umich.edu](mailto:quiet@umich.edu). Include:
+Open an issue via [the issue form](https://github.com/quietnotion/mads-capstone-dataset/issues/new/choose). GitHub sign up is free. Include:
 
 - Cohort and team number (or project title)
 - What should change
@@ -30,7 +30,7 @@ Open an issue via [the issue form](https://github.com/quietnotion/mads-capstone-
 
 ## Requesting redaction
 
-If you want your team's row removed, open an issue or email [quiet@umich.edu](mailto:quiet@umich.edu). Turnaround is 48 hours. No explanation required.
+If you want your team's row removed, open an issue. No explanation required.
 
 ## Adding a new project
 
