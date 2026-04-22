@@ -15,7 +15,7 @@ SS25,14,Querious Detector: Using AI to Assist with Support Queue Ticket Assignme
 SS25,15,Uncovering Hidden Health Profiles Through Clustering of NHANES Data,3,Healthcare and Biomedical,True,True,True,False,
 SS25,16,RxConnection: A Medication Interoperability Engine,2,Healthcare and Biomedical,True,True,True,False,
 SS25,17,Podcasting the News: Topic Sentiment and Stance Analysis of US Podcasts and Public News Media,2,NLP and LLMs,True,True,True,False,
-SS25,18,Macrominds,2,Finance and Markets,True,False,True,False,Title underspecified in post; macro finance framing inferred
+SS25,18,Macrominds,2,Finance and Markets,True,False,True,False,Project title not stated in post; topic inferred from team name
 SS25,20,Mutation ddG Predictor,1,Healthcare and Biomedical,True,False,True,False,Solo project; biotech
 SS25,21,Data Powered Language Learning (Pela Pela),1,Social Sciences and Networks,False,True,True,False,Solo project; education
 SS25,23,DRW Crypto Market Prediction,2,Finance and Markets,False,True,True,False,
@@ -23,7 +23,7 @@ SS25,24,Precision Oncology through Interpretable Machine Learning: Dissecting Tu
 F25,4,AutoInsights: Sentiment Analysis Benchmarking,1,NLP and LLMs,True,True,True,True,Solo project
 F25,5,Discover Lease Insight,1,Real Estate and Property,True,True,False,False,Solo project; repo private (internal company data)
 F25,6,Natural Language Movie Recommendation System,4,Recommendation Systems,True,True,True,True,
-F25,7,Monte Carlo Collective (Risk Management),3,Finance and Markets,False,False,True,False,Only repo listed
+F25,7,Monte Carlo Collective (Risk Management),3,Finance and Markets,False,False,True,False,
 F25,8,The Readiscoverers (book recommender),3,Recommendation Systems,True,True,True,True,
 F25,9,Solar Sisters: Optimization of Urban Solar Installation,3,Environment and Energy,True,True,True,False,
 F25,10,FEMA Recommender (Team Disaster),3,Recommendation Systems,True,True,True,True,
@@ -34,7 +34,7 @@ F25,14,The Flavor Saviors: Ingredient and Cuisine Network Representations,1,Soci
 F25,15,High Frequency Volatility Regime Detection for MAGS ETF,3,Finance and Markets,True,True,True,False,
 F25,16,No Food Waste for You: Smart Pantry and Recipe Planning,3,Recommendation Systems,True,True,True,False,
 F25,18,Skin Lesion Classification App,3,Healthcare and Biomedical,True,False,True,True,Multi service architecture (UI + users + doctors + ML)
-F25,19,Sentiment Informed Kalshi Price Predictions for NFL Games,2,Finance and Markets,True,False,True,False,Judgment call: price prediction so Finance not Sports
+F25,19,Sentiment Informed Kalshi Price Predictions for NFL Games,2,Finance and Markets,True,False,True,False,Price prediction for a prediction market; categorized under Finance
 F25,21,Chemistry Classification for Second Life Li Ion Battery Utilization,2,Environment and Energy,True,False,True,False,
 F25,22,Prose Colored Glasses: Political Valence and the Framing of News Coverage,3,NLP and LLMs,True,True,True,False,Group 22 aka 3M
 F25,23,Singapore Private Property Market Analysis and Evaluation (Property Tycoons),3,Real Estate and Property,True,True,True,True,

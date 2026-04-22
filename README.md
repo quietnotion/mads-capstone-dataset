@@ -33,6 +33,8 @@ The JSON mirror is auto regenerated from the CSV whenever the CSV changes. The C
 | `has_report` / `has_video` / `has_code_repo` / `has_live_app` | boolean |
 | `notes` | populated only for judgment calls or caveats |
 
+Boolean flags reflect what was shared publicly in the Slack post. A `False` on `has_code_repo` can mean either "no repo was linked" or "the team chose to keep their repo private." The `notes` column clarifies when private by design applies. Content of the linked deliverables was never verified, only the presence of the links.
+
 Category definitions and judgment calls live in [`taxonomy.md`](taxonomy.md).
 
 ## Privacy
