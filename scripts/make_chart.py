@@ -5,6 +5,7 @@ Usage:
 """
 import csv
 from collections import Counter
+from datetime import date, timezone
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -88,9 +89,10 @@ def make_chart():
     fig.text(0.02, 0.945,
              f"MADS Capstone Projects by Subject Area   (n = {grand_total})",
              fontsize=16, fontweight="bold", color=MICH_BLUE)
-    fig.text(0.02, 0.905,
-             "Posting in #mads-capstone-gallery is mandatory for MADS capstones. Channel opened May 17, 2025.",
-             fontsize=10.5, color=BODY, style="italic")
+    today = date.today().strftime("%B %-d, %Y")
+    fig.text(0.02, 0.910,
+             f"Data as of {today}.  Posting in #mads-capstone-gallery is mandatory for MADS capstones; channel opened May 17, 2025.",
+             fontsize=10, color=BODY, style="italic")
 
     plt.savefig(OUT_PATH, dpi=160, facecolor="white")
     print(f"Saved {OUT_PATH} (n = {grand_total})")
