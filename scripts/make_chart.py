@@ -90,8 +90,11 @@ def make_chart():
              f"MADS Capstone Projects by Subject Area   (n = {grand_total})",
              fontsize=16, fontweight="bold", color=MICH_BLUE)
     today = date.today().strftime("%B %-d, %Y")
-    fig.text(0.02, 0.910,
-             f"Data as of {today}.  Covers #mads-capstone-gallery (opened May 17, 2025; posting now mandatory).  Earlier capstones shared on Coursera not yet included.",
+    fig.text(0.02, 0.912,
+             f"Data as of {today}.  Covers the #mads-capstone-gallery Slack channel (opened May 17, 2025; posting now mandatory).",
+             fontsize=10, color=BODY, style="italic")
+    fig.text(0.02, 0.882,
+             "Earlier capstones shared on Coursera not yet included.",
              fontsize=10, color=BODY, style="italic")
 
     plt.savefig(OUT_PATH, dpi=160, facecolor="white")
