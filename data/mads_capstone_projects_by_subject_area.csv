@@ -1,0 +1,70 @@
+cohort,team_number,project_title,team_size,subject_category,has_report,has_video,has_code_repo,has_live_app,notes
+SS25,2,Electroencephalogram and National Health Interview Survey Data Explorer,3,Healthcare and Biomedical,True,True,True,True,
+SS25,3,Enhancing Medication Safety with Retrieval-Augmented Clinical Question Answering,3,Healthcare and Biomedical,True,True,True,True,
+SS25,4,Domain Specific Comparison of PEFT Methods,3,NLP and LLMs,True,False,True,False,
+SS25,5,How To Win in the Transfer Portal Era,4,Sports and Entertainment,True,True,True,False,
+SS25,6,Using Cluster Analysis to Explore Public School Profiles,3,Social Sciences and Networks,True,False,True,False,
+SS25,7,Backtesting the Technical Wisdom: A Machine Learning Lens on Chart Patterns,1,Finance and Markets,True,False,True,False,Solo project
+SS25,8,Smart Pet Gate System,3,Computer Vision and IoT,True,True,True,False,
+SS25,9,LLM Steam Bot,3,NLP and LLMs,True,True,True,False,Chatbot but core technique is LLM
+SS25,10,Consumer Sentiment Forecasting Using Federal Reserve Indicators (Rate Hike Rangers),3,Finance and Markets,True,False,True,False,
+SS25,11,Book Recommender System using Goodreads Data,4,Recommendation Systems,True,True,True,True,Hugging Face Space as live app
+SS25,12,Chrome Reddit Sentiment and Bias Analyzer,1,NLP and LLMs,True,True,True,False,Solo project
+SS25,13,Single Cell RNA Sequencing in Human Breast Tissue,1,Healthcare and Biomedical,True,True,True,False,Solo project
+SS25,14,Querious Detector: Using AI to Assist with Support Queue Ticket Assignment,3,Software and Data Engineering,True,False,True,False,Internal tooling for IT support
+SS25,15,Uncovering Hidden Health Profiles Through Clustering of NHANES Data,3,Healthcare and Biomedical,True,True,True,False,
+SS25,16,RxConnection: A Medication Interoperability Engine,2,Healthcare and Biomedical,True,True,True,False,
+SS25,17,Podcasting the News: Topic Sentiment and Stance Analysis of US Podcasts and Public News Media,2,NLP and LLMs,True,True,True,False,
+SS25,18,Macrominds,2,Finance and Markets,True,False,True,False,Title underspecified in post; macro finance framing inferred
+SS25,20,Mutation ddG Predictor,1,Healthcare and Biomedical,True,False,True,False,Solo project; biotech
+SS25,21,Data Powered Language Learning (Pela Pela),1,Social Sciences and Networks,False,True,True,False,Solo project; education
+SS25,23,DRW Crypto Market Prediction,2,Finance and Markets,False,True,True,False,
+SS25,24,Precision Oncology through Interpretable Machine Learning: Dissecting Tumor vs Normal Cell Signatures,2,Healthcare and Biomedical,True,False,True,True,Blog and poster as live app
+F25,4,AutoInsights: Sentiment Analysis Benchmarking,1,NLP and LLMs,True,True,True,True,Solo project
+F25,5,Discover Lease Insight,1,Real Estate and Property,True,True,False,False,Solo project; repo private (internal company data)
+F25,6,Natural Language Movie Recommendation System,4,Recommendation Systems,True,True,True,True,
+F25,7,Monte Carlo Collective (Risk Management),3,Finance and Markets,False,False,True,False,Only repo listed
+F25,8,The Readiscoverers (book recommender),3,Recommendation Systems,True,True,True,True,
+F25,9,Solar Sisters: Optimization of Urban Solar Installation,3,Environment and Energy,True,True,True,False,
+F25,10,FEMA Recommender (Team Disaster),3,Recommendation Systems,True,True,True,True,
+F25,11,YouTube Video Summarization via Knowledge Distillation and RAG,3,NLP and LLMs,True,False,True,False,Poster and report
+F25,12,Financial Form Text Extraction using CNNs,4,Finance and Markets,True,True,True,True,CNN technique; finance application
+F25,13,OceanScope: Remote Ocean Health Monitoring,1,Environment and Energy,True,False,True,False,Solo project; poster and report
+F25,14,The Flavor Saviors: Ingredient and Cuisine Network Representations,1,Social Sciences and Networks,True,False,True,False,Solo project; network analysis of food
+F25,15,High Frequency Volatility Regime Detection for MAGS ETF,3,Finance and Markets,True,True,True,False,
+F25,16,No Food Waste for You: Smart Pantry and Recipe Planning,3,Recommendation Systems,True,True,True,False,
+F25,18,Skin Lesion Classification App,3,Healthcare and Biomedical,True,False,True,True,Multi service architecture (UI + users + doctors + ML)
+F25,19,Sentiment Informed Kalshi Price Predictions for NFL Games,2,Finance and Markets,True,False,True,False,Judgment call: price prediction so Finance not Sports
+F25,21,Chemistry Classification for Second Life Li Ion Battery Utilization,2,Environment and Energy,True,False,True,False,
+F25,22,Prose Colored Glasses: Political Valence and the Framing of News Coverage,3,NLP and LLMs,True,True,True,False,Group 22 aka 3M
+F25,23,Singapore Private Property Market Analysis and Evaluation (Property Tycoons),3,Real Estate and Property,True,True,True,True,
+F25,25,RoadWatch: Crash Risk in Work Zones,3,Transportation and Safety,True,False,True,True,Poster via Canva
+F25,26,Cathedral Built Upon A River: LLM Architecture Improvements,4,NLP and LLMs,True,True,True,False,
+F25,27,FireCast: Satellite Based Wildfire Perimeter Construction,2,Environment and Energy,True,True,True,True,Dashboard as live app
+F25,28,Structural Alpha: From Rigid Technical Patterns to Latent Regime Extraction (Team All-In),3,Finance and Markets,True,True,True,False,Team size estimated from repo contributors
+F25,2,Maternal Morbidity Prediction (Booming Babies),3,Healthcare and Biomedical,True,True,True,False,Self identified as Group 2
+W26,1,PersonaPath: Adaptive Personality Inference from Text with Domain Shift Analysis and Career Interpretation,4,NLP and LLMs,True,True,True,True,
+W26,2,Multimodal Skin Cancer Detection,2,Healthcare and Biomedical,True,False,True,False,Poster only
+W26,4,The Effects of Security Best Practices on Security Outcome Metrics in the Python Ecosystem,3,Software and Data Engineering,True,False,True,False,April 2026 team 4
+W26,5,Predicting Type 2 Diabetes Risk in East Asian Populations,3,Healthcare and Biomedical,True,False,True,True,
+W26,6,Meal Discovery: A cooking recipe recommendation system,4,Recommendation Systems,True,True,True,True,
+W26,8,Real Estate Valuation Assistant (The Land Lords),3,Real Estate and Property,True,True,True,True,
+W26,9,Market Regime Classification and Dynamic Portfolio Allocation (Team Volatility),3,Finance and Markets,True,True,True,False,
+W26,9,Predicting Academic Collaborations Using Network Features (The Collaboratory),3,Social Sciences and Networks,True,True,True,False,Team numbering conflict with Market Regime; both labeled Team 9
+W26,10,Gig Work Economic Stress and Market Behavior,3,Social Sciences and Networks,True,True,True,False,Judgment call: labor economics folded into Social Sciences
+W26,11,Propaganda Scanner Chrome Extension,3,NLP and LLMs,True,True,True,True,Chrome extension as live app
+W26,13,Retrieval Augmented Generation Model Comparison for Health Wellness Inquiries (Health AI),2,Healthcare and Biomedical,True,False,True,False,
+W26,14,The Risky Business of Financial Matchmaking (Investor Gurus),4,Finance and Markets,True,True,True,False,
+W26,15,Latent Structures in Dating Preferences,3,Social Sciences and Networks,True,True,True,False,
+W26,16,Rural Hospital Risk Indicators (Keepers of the Predictive Ring),2,Healthcare and Biomedical,True,False,True,False,Poster and report
+W26,17,Egg Fertility Detection Using Hyperspectral Imaging (BandPass),1,Computer Vision and IoT,True,True,True,False,Solo project; could arguably be Agriculture
+W26,18,SafePath: NYC Crash Risk Dashboard,2,Transportation and Safety,True,True,True,True,
+W26,20,Sequence Based Prediction of Antibody Expression Titer (mAb Machine),3,Healthcare and Biomedical,True,False,True,False,Biotech ML; poster and report
+W26,22,Data Driven Decision Support for the Ann Arbor Water Treatment Plant,3,Environment and Energy,True,False,False,False,Repo kept private due to sensitive operational data
+W26,23,Buying Talent: Recruiting NIL and the changing landscape of College Football,3,Sports and Entertainment,True,True,True,False,
+W26,24,BrakeGuard,4,Transportation and Safety,True,False,True,False,Poster and report
+W26,25,MoveSmart: A US City Recommendation System,3,Recommendation Systems,True,True,True,True,About page and Streamlit app
+W26,26,Anti Sugar Rush: An AI Agent for Diabetes Management,3,Healthcare and Biomedical,True,True,True,False,
+W26,27,Greenlight: Predicting Film Financial Success,3,Sports and Entertainment,True,False,True,False,Judgment call: film industry folded into Sports and Entertainment
+W26,28,MIMIC FHIR,2,Healthcare and Biomedical,True,True,True,False,
+W26,32,StarSense: Inferring Data Architecture from Enterprise Source System Metadata,1,Software and Data Engineering,True,True,True,False,Solo project
