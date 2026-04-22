@@ -817,6 +817,18 @@
   },
   {
     "cohort": "W26",
+    "team_number": 30,
+    "project_title": "Stochastic Techno Economic Analysis of Hydrogen Storage Using Reinforcement Learning",
+    "team_size": 1,
+    "subject_category": "Environment and Energy",
+    "has_report": true,
+    "has_video": false,
+    "has_code_repo": true,
+    "has_live_app": false,
+    "notes": "Solo project; team name Hydrocore"
+  },
+  {
+    "cohort": "W26",
     "team_number": 32,
     "project_title": "StarSense: Inferring Data Architecture from Enterprise Source System Metadata",
     "team_size": 1,
