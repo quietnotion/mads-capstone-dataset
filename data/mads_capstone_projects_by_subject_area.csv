@@ -67,4 +67,5 @@ W26,25,MoveSmart: A US City Recommendation System,3,Recommendation Systems,True,
 W26,26,Anti Sugar Rush: An AI Agent for Diabetes Management,3,Healthcare and Biomedical,True,True,True,False,
 W26,27,Greenlight: Predicting Film Financial Success,3,Sports and Entertainment,True,False,True,False,Judgment call: film industry folded into Sports and Entertainment
 W26,28,MIMIC FHIR,2,Healthcare and Biomedical,True,True,True,False,
+W26,30,Stochastic Techno Economic Analysis of Hydrogen Storage Using Reinforcement Learning,1,Environment and Energy,True,False,True,False,Solo project; team name Hydrocore
 W26,32,StarSense: Inferring Data Architecture from Enterprise Source System Metadata,1,Software and Data Engineering,True,True,True,False,Solo project
